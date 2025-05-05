@@ -23,8 +23,8 @@
   body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
-    color: var(--text-primary);
-    background-color: var(--bg-light);
+    color: var;
+    background-color: var;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -36,7 +36,7 @@
   a {
     color: var;
     text-decoration: none;
-    transition: var(--transition);
+    transition: var;
   }
   
   a:hover {
@@ -61,10 +61,10 @@
   /* Buttons */
   .btn {
     display: inline-block;
-    background-color: var(--primary);
+    background-color: var;
     color: white;
     padding: 0.5rem 1rem;
-    border-radius: var(--radius);
+    border-radius: var;
     font-weight: 500;
     cursor: pointer;
     border: none;
@@ -393,7 +393,7 @@
   }
   
   .comment-text {
-    color: var(--text-secondary);
+    color: var;
   }
   
   /* Comment form */
